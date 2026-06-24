@@ -1,0 +1,69 @@
+---
+title: PoC Demo
+---
+
+demo
+
+<Banner variant="normal">
+  This is banner
+</Banner>
+
+<Tabs items={["JavaScript", "typescript"]}>
+  <Tab value="JavaScript">
+    Javascript here
+  </Tab>
+
+  <Tab value="typescript">
+    typescript here
+  </Tab>
+</Tabs>
+
+<Callout type="warning" title="This is warning">
+  Warning stuff here
+</Callout>
+
+<Steps>
+  <Step>
+    This is step 1
+  </Step>
+
+  <Step>
+    This is step 2
+  </Step>
+</Steps>
+
+<Cards>
+  <Card title="Card 1" />
+
+  <Card title="Card 2" />
+</Cards>
+
+something here
+
+<Accordions type="multiple">
+  <Accordion title="Accordian 1">
+    Accordian 1 data
+  </Accordion>
+
+  <Accordion title="Accordian 2">
+    Accordian 2 data
+  </Accordion>
+</Accordions>
+
+<Files>
+  <Folder defaultOpen={false} name="Folder 1">
+    <File name="File under folder 1" />
+  </Folder>
+
+  <Folder name="Folder 2" defaultOpen={true}>
+    <File name="File under folder 2" />
+  </Folder>
+
+  <File name="File under root directly" />
+</Files>
+
+something here
+
+<GithubInfo owner="tinacms" repo="tina.io" />
+
+<InlineTOC items={[{ title: "Title here", url: "#section 2" }]} />
